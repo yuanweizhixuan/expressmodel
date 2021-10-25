@@ -12,7 +12,7 @@ app.all("*", function (req, res, next) {
 app.post("/signin", function (req, res) {
 	res.send({
 		// begin_time: "Oct 22, 2021 2:56:01 PM",
-		begin_time: "Oct 22, 2021 3:55:01 PM",
+		begin_time: "Oct 22, 2021 2:55:01 PM",
 		status: 1,
 		current_time: "Oct 22, 2021 3:56:01 PM",
 	});
@@ -64,6 +64,42 @@ app.post("/rank", function (req, res) {
 				SEX: 1,
 				STAR_NUMBER: 46,
 				NICKNAME: "刘冒欣",
+			},
+			{
+				TIMELONG: 160,
+				LEVELNAME: "崭露头角",
+				TESTLEVEL: "2",
+				DAY_NUMBER: 64,
+				SEX: 1,
+				STAR_NUMBER: 485,
+				NICKNAME: "熊大",
+			},
+			{
+				TIMELONG: 781,
+				LEVELNAME: "崭露头角",
+				TESTLEVEL: "2",
+				DAY_NUMBER: 459,
+				SEX: 1,
+				STAR_NUMBER: 201,
+				NICKNAME: "熊二",
+			},
+			{
+				TIMELONG: 625,
+				LEVELNAME: "崭露头角",
+				TESTLEVEL: "2",
+				DAY_NUMBER: 452,
+				SEX: 1,
+				STAR_NUMBER: 145,
+				NICKNAME: "熊三",
+			},
+			{
+				TIMELONG: 4531,
+				LEVELNAME: "崭露头角",
+				TESTLEVEL: "2",
+				DAY_NUMBER: 4538,
+				SEX: 1,
+				STAR_NUMBER: 4589,
+				NICKNAME: "熊四",
 			},
 		],
 	});
