@@ -13,7 +13,7 @@ app.post("/signin", function (req, res) {
 	res.send({
 		// begin_time: "Oct 22, 2021 2:56:01 PM",
 		begin_time: "Oct 22, 2021 2:55:01 PM",
-		status: 1,
+		status: 3,
 		current_time: "Oct 22, 2021 3:56:01 PM",
 	});
 });
@@ -21,7 +21,7 @@ app.post("/signin", function (req, res) {
 // 登出
 app.post("/signout", function (req, res) {
 	res.send({
-		status: 0,
+		status: 1,
 	});
 });
 
